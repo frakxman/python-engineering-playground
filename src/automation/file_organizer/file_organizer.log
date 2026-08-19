@@ -1,0 +1,29 @@
+2026-08-19 16:13:08 - Organizer - INFO - 🚀 DRY-RUN MODE: No files will be actually moved.
+2026-08-19 16:13:08 - Organizer - DEBUG - [DRY-RUN] Would create folder: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\images
+2026-08-19 16:13:08 - Organizer - INFO - [DRY-RUN] Would move: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\photo.jpg → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\images\photo.jpg
+2026-08-19 16:13:08 - Organizer - DEBUG - [DRY-RUN] Would create folder: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\documents
+2026-08-19 16:13:08 - Organizer - INFO - [DRY-RUN] Would move: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\notes.txt → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\documents\notes.txt
+2026-08-19 16:13:08 - Organizer - DEBUG - [DRY-RUN] Would create folder: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\others
+2026-08-19 16:13:08 - Organizer - INFO - [DRY-RUN] Would move: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\data.csv → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\others\data.csv
+2026-08-19 16:13:08 - Organizer - INFO - ✅ DRY-RUN completed. 3 files would be moved.
+2026-08-19 16:13:08 - Organizer - INFO - 🚀 Starting file organization (real execution).
+2026-08-19 16:13:08 - Organizer - DEBUG - Moved: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\photo.jpg → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\images\photo.jpg
+2026-08-19 16:13:08 - Organizer - DEBUG - Moved: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\notes.txt → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\documents\notes.txt
+2026-08-19 16:13:08 - Organizer - DEBUG - Moved: C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\data.csv → C:\Users\fariv\AppData\Local\Temp\tmpqeji8m_v\others\data.csv
+2026-08-19 16:13:08 - Organizer - INFO - ✅ Organization completed. Moved 3 files, skipped 0, errors: 0.
+2026-08-19 16:17:15 - Organizer - INFO - 🚀 DRY-RUN MODE: No files will be actually moved.
+2026-08-19 16:17:15 - Organizer - DEBUG - [DRY-RUN] Would create folder: test_folder\images
+2026-08-19 16:17:15 - Organizer - INFO - [DRY-RUN] Would move: test_folder\photo.jpg → test_folder\images\photo.jpg
+2026-08-19 16:17:15 - Organizer - DEBUG - [DRY-RUN] Would create folder: test_folder\documents
+2026-08-19 16:17:15 - Organizer - INFO - [DRY-RUN] Would move: test_folder\notes.txt → test_folder\documents\notes.txt
+2026-08-19 16:17:15 - Organizer - DEBUG - [DRY-RUN] Would create folder: test_folder\spreadsheets
+2026-08-19 16:17:15 - Organizer - INFO - [DRY-RUN] Would move: test_folder\data.csv → test_folder\spreadsheets\data.csv
+2026-08-19 16:17:15 - Organizer - DEBUG - [DRY-RUN] Would create folder: test_folder\code
+2026-08-19 16:17:15 - Organizer - INFO - [DRY-RUN] Would move: test_folder\script.py → test_folder\code\script.py
+2026-08-19 16:17:15 - Organizer - INFO - ✅ DRY-RUN completed. 4 files would be moved.
+2026-08-19 16:18:03 - Organizer - INFO - 🚀 Starting file organization (real execution).
+2026-08-19 16:18:03 - Organizer - DEBUG - Moved: test_folder\photo.jpg → test_folder\images\photo.jpg
+2026-08-19 16:18:03 - Organizer - DEBUG - Moved: test_folder\notes.txt → test_folder\documents\notes.txt
+2026-08-19 16:18:03 - Organizer - DEBUG - Moved: test_folder\data.csv → test_folder\spreadsheets\data.csv
+2026-08-19 16:18:03 - Organizer - DEBUG - Moved: test_folder\script.py → test_folder\code\script.py
+2026-08-19 16:18:03 - Organizer - INFO - ✅ Organization completed. Moved 4 files, skipped 0, errors: 0.

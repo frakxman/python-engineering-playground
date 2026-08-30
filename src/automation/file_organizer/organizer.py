@@ -4,7 +4,7 @@ from typing import Dict, List, Optional
 import logging
 
 # Import the logger setup from our module
-from logger import get_logger
+from src.automation.file_organizer.logger import get_logger
 
 # Get a logger instance for this module
 logger = get_logger("Organizer")

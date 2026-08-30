@@ -44,6 +44,10 @@ onMounted(loadSystemInformation)
 
 <template>
   <main class="system-information-page">
+    <RouterLink to="/" class="back-link">
+      ← Back to Overview
+    </RouterLink>
+
     <header class="system-header">
       <div>
         <p class="eyebrow">LAB · PYTHON ENGINEERING</p>

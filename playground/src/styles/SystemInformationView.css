@@ -179,6 +179,20 @@
   letter-spacing: 0.08em;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #858e9d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  transition: color 160ms ease;
+}
+
+.back-link:hover {
+  color: #ff6b35;
+}
+
 @media (max-width: 760px) {
   .system-information-page {
     width: 100%;

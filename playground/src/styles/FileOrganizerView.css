@@ -1,0 +1,274 @@
+.file-organizer-page {
+  width: min(900px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 80px 0 48px;
+}
+
+.lab-header {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #1d222c;
+}
+
+.lab-header h1 {
+  max-width: 760px;
+  margin: 0;
+  font-size: clamp(48px, 7vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.lab-description {
+  max-width: 680px;
+  margin: 28px 0 0;
+  color: #9ca5b4;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.lab-meta {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #1d222c;
+}
+
+.lab-meta span,
+.section-label {
+  color: #ff6b35;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.lab-meta span {
+  padding: 6px 9px;
+  border: 1px solid #303744;
+  border-radius: 5px;
+}
+
+.content-section {
+  padding: 64px 0;
+  border-bottom: 1px solid #1d222c;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: -0.035em;
+}
+
+.section-description {
+  max-width: 700px;
+  margin: 0;
+  color: #858e9d;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.workflow-card {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid #202631;
+  border-radius: 9px;
+  background: #0f1219;
+}
+
+.workflow-number {
+  color: #596271;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+}
+
+.workflow-card h3 {
+  margin: 48px 0 10px;
+  font-size: 19px;
+}
+
+.workflow-card p {
+  margin: 0;
+  color: #858e9d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.split-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.feature-panel {
+  padding: 26px;
+  border: 1px solid #202631;
+  border-radius: 9px;
+  background: #0f1219;
+}
+
+.feature-panel h2 {
+  margin: 22px 0 12px;
+  font-size: 22px;
+}
+
+.feature-panel p {
+  margin: 0 0 24px;
+  color: #858e9d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.feature-panel code,
+.feature-panel pre {
+  display: block;
+  margin: 0;
+  padding: 14px;
+  overflow-x: auto;
+  border: 1px solid #202631;
+  border-radius: 6px;
+  color: #d9dee7;
+  background: #090b10;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.feature-panel pre {
+  white-space: pre-wrap;
+}
+
+.architecture-list {
+  border-top: 1px solid #202631;
+}
+
+.architecture-list div {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 20px;
+  padding: 17px 0;
+  border-bottom: 1px solid #202631;
+}
+
+.architecture-list strong {
+  color: #e8ebef;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.architecture-list span {
+  color: #858e9d;
+  font-size: 14px;
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid #202631;
+  border-left: 1px solid #202631;
+}
+
+.practice-grid span {
+  padding: 18px;
+  border-right: 1px solid #202631;
+  border-bottom: 1px solid #202631;
+  color: #9ca5b4;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+}
+
+.usage-section {
+  border-bottom: 0;
+}
+
+.terminal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  border: 1px solid #202631;
+  border-radius: 7px;
+  background: #090b10;
+}
+
+.terminal-prompt {
+  color: #ff6b35;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.terminal code {
+  color: #d9dee7;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.lab-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 24px;
+  color: #596271;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #858e9d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  transition: color 160ms ease;
+}
+
+.back-link:hover {
+  color: #ff6b35;
+}
+
+
+@media (max-width: 760px) {
+  .file-organizer-page {
+    width: min(100% - 32px, 900px);
+    padding-top: 60px;
+  }
+
+  .workflow-grid,
+  .split-section {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-list div {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-footer {
+    flex-direction: column;
+  }
+}
